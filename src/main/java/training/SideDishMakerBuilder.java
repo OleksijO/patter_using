@@ -7,11 +7,11 @@ import java.util.List;
 /**
  * Created by oleksij.onysymchuk@gmail on 14.12.2016.
  */
-public class SideDishMakerRunner {
+public class SideDishMakerBuilder {
 
 
     public static void main(String[] args) {
-        SideDishMakerRunner test = new SideDishMakerRunner();
+        SideDishMakerBuilder test = new SideDishMakerBuilder();
         SideDishMaker dishMaker = test.new SideDishMaker();
         List<Ingredient> customerIngredients = new ArrayList<Ingredient>() {{
             add(test.new IngredientImpl("Oil", 1));
